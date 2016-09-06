@@ -1,6 +1,7 @@
 var seatTpl='<div class="table">\
 			<div class="seat_{$status1} seat1"></div>\
 			<div class="seat_{$status2} seat2"></div>\
+			<div class="tableItem"></div>\
 			<div class="seat_{$status3} seat3"></div>\
 			<div class="seat_{$status4} seat4"></div>\
 		</div>';
@@ -51,7 +52,7 @@ $(function(){
 });
 function LoadRoom1()
 {
-	var data=[[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0]];//ajax请求
+	var data=[[0,1,0,0],[0,0,1,0],[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[0,0,1,0],[1,0,1,0]];//ajax请求
 	$('.container').empty();
 	$('.compass').css('position','fixed');
 	AddTpl(data);
