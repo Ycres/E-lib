@@ -103,7 +103,7 @@ nav img
 .container
 {
 	margin:auto;
-	margin-top: 180px;
+	margin-top: 120px;
 	width: 90%;
 	/*height: 350px;*/
 	text-align: center;
@@ -128,12 +128,12 @@ nav img
 }
 .room1 .seaticon
 {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .room2
 {
 	width: 25%;
-	height: 250px;
+	height: 200px;
 	border: 1px solid #777;
 	box-sizing:border-box;
 	font-size: 20px;
@@ -144,7 +144,7 @@ nav img
 }
 .room2 .seaticon,.room3 .seaticon
 {
-	margin-top: 80%;
+	margin-top: 50px;
 	vertical-align: text-top;
 }
 .room2 .seaticon>div,.room3 .seaticon>div
@@ -154,7 +154,7 @@ nav img
 .room3
 {
 	width: 25%;
-	height: 250px;
+	height: 200px;
 	border: 1px solid #777;
 	box-sizing:border-box;
 	font-size: 20px;
