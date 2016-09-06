@@ -47,7 +47,7 @@ $(function(){
 	});
 	$('#back').on('click',function(){
 		window.history.back(-1);
-		window.history.reload();
+		window.location.reload();
 	})
 });
 function LoadRoom1()
