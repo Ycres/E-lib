@@ -46,7 +46,7 @@ $(function(){
 		window.location.hash="#room3";
 	});
 	$('#back').on('click',function(){
-		history.back(-1);
+		window.history.back(-1);
 	})
 });
 function LoadRoom1()
