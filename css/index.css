@@ -1,0 +1,227 @@
+*
+{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+html
+{
+	width:100%;
+}
+body
+{
+	width: 100%;
+	background: rgb(30,72,96);
+	font-size: 0;
+	padding-bottom: 40px;
+}
+.compass
+{
+	position: absolute;
+	right: 10px;
+	top:80px;
+	width:60px;
+	height: 60px;
+}
+.compass img
+{
+	width:100%;
+	height: 100%;
+}
+.compass span
+{
+	position: absolute;
+}
+.north
+{
+	top:-20px;
+	left: 22px;
+	width: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: rgb(54,192,191);
+	font-family: '微软雅黑';
+}
+.south
+{
+	bottom: -20px;
+	left: 22px;
+	width: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: rgb(54,192,191);
+	font-family: '微软雅黑';
+}
+nav
+{
+	background: rgb(54,192,191);
+	height: 45px;
+	line-height: 45px;
+	box-shadow: 0 0 8px black;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	font-size: 20px;
+	font-family: '微软雅黑';
+	color: #fff;
+	font-weight: bold;
+}
+nav img
+{
+	height: 80%;
+	position: absolute;
+	left: 3px;
+	top: 10%;
+}
+.legend
+{
+	position: absolute;
+	left: 20px;
+	top:80px;
+	font-size: 15px;
+	font-family: '微软雅黑';
+	color: white;
+}
+.lseat
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	background: rgb(54,192,191);
+	display: inline-block;
+	vertical-align: text-bottom;
+	color: white;
+}
+.lseat:nth-child(2)
+{
+	background: #777777;
+	vertical-align: text-bottom;
+	color: white;
+}
+.container
+{
+	margin:auto;
+	margin-top: 180px;
+	width: 90%;
+	/*height: 350px;*/
+	text-align: center;
+	font-family: '微软雅黑';
+	position: relative;
+	color: #ccc;
+}
+.seaticon
+{
+	font-size: 15px;
+	color: white;
+	height: 20px;
+}
+.room1
+{
+	width: 50%;
+	height: 100px;
+	border:1px solid #777;
+	margin:auto;
+	font-size: 20px;
+	box-sizing:border-box;
+}
+.room1 .seaticon
+{
+	margin-top: 40px;
+}
+.room2
+{
+	width: 25%;
+	height: 250px;
+	border: 1px solid #777;
+	box-sizing:border-box;
+	font-size: 20px;
+	left: 0;
+	top: 120px;
+	padding-top: 10px;
+	position: absolute;
+}
+.room2 .seaticon,.room3 .seaticon
+{
+	margin-top: 80%;
+	vertical-align: text-top;
+}
+.room2 .seaticon>div,.room3 .seaticon>div
+{
+	margin-bottom: 5px;
+}
+.room3
+{
+	width: 25%;
+	height: 250px;
+	border: 1px solid #777;
+	box-sizing:border-box;
+	font-size: 20px;
+	left: 75%;
+	top: 120px;
+	padding-top: 10px;
+	position: absolute;
+}
+.bottom
+{
+	position: absolute;
+	bottom: -300px;
+	left: calc(50% - 30px);
+	font-size: 20px;
+}
+.seaticon
+{
+	color: white;
+}
+/*座位*/
+.table
+{
+	width: 45px;
+	height: 45px;
+	position: relative;
+	margin:auto;
+	margin-top: 20px;
+}
+.seat_0
+{
+	width: 40%;
+	height: 40%;
+	background:#777;
+	border-radius: 5px;
+	float: left;
+}
+.seat_1
+{
+	width: 40%;
+	height: 40%;
+	background: rgb(54,192,191);
+	border-radius: 5px;
+	float: left;
+}
+.seat1
+{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.seat2
+{
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.seat3
+{
+	position: absolute;
+	left: 0;
+	bottom:0;
+}
+.seat4
+{
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
+/*room1*/
+
+
+

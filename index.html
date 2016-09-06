@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<title>在线座位查询</title>
+	<script type="text/javascript">
+	
+	(function (doc, win) {
+	  var docEl = doc.documentElement,
+	    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	    recalc = function () {
+	      var clientWidth = docEl.clientWidth;
+	      if (!clientWidth) return;
+	      docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+	    };
+	
+	  if (!doc.addEventListener) return;
+	  win.addEventListener(resizeEvt, recalc, false);
+	  doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+	</script>
+</head>
+<body>
+	<nav>
+		<img src="img/back.png" id="back">
+		三楼座位情况
+	</nav>
+	<div class="compass">
+		<span class="north">N</span>
+		<img src="img/compass.png">
+		<span class="south">S</span>
+	</div>
+	<div class="legend">
+		<div class="lseat"></div>
+		空位&nbsp;&nbsp;
+		<div class="lseat"></div>
+		 已占座位
+	</div>
+	<div class="container">
+		<div class="room1">
+			<span class="libName">自然科学第一书库</span>
+			<div class="seaticon">
+				<div class="lseat"></div> <span>3</span>
+				<div class="lseat" style="background:#777;"></div> <span>9</span>
+			</div>
+		</div>
+		<div class="room2">
+			<span class="libName">自然科学第二书库</span>
+			<div class="seaticon">
+				<div><div class="lseat"></div> <span>3</span></div>
+				<div><div class="lseat" style="background:#777;"></div> <span>9</span></div>
+				
+			</div>
+		</div>
+		<div class="room3">
+			<span class="libName">自然科学第三书库</span>
+			<div class="seaticon">
+				<div><div class="lseat"></div> <span>3</span></div>
+				<div><div class="lseat" style="background:#777;"></div> <span>9</span></div>
+			</div>
+		</div>
+		<div class="bottom">南大门</div>
+	</div>
+</body>
+</html>
