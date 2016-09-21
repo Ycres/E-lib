@@ -57,15 +57,19 @@ nav
 {
 	background: rgb(54,192,191);
 	height: 45px;
+	width: 100%;
+	top:0;
+	left: 0;
 	line-height: 45px;
 	box-shadow: 0 0 8px black;
 	text-align: center;
 	vertical-align: middle;
-	position: relative;
+	position: fixed;
 	font-size: 20px;
 	font-family: '微软雅黑';
 	color: #fff;
 	font-weight: bold;
+	z-index: 999;
 }
 nav img
 {
